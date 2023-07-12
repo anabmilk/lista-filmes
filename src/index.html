@@ -8,15 +8,15 @@
     <meta name="description" content="Lista de Filmes" />
     <meta name="keywords" content="filme, cinema" />
     <style>
-      @import "style.css";
-      @import "styleFilme.css";
+      @import "./stylesCSS/style.css";
+      @import "./stylesCSS/styleIndex.css";
     </style>
-    <script defer src="./script.js"></script>
-    <script defer src="./scriptFilme.js"></script>
+    <script defer src="./scriptsJS/script.js"></script>
+    <script defer src="./scriptsJS/scriptIndex.js"></script>
     <title>Filmes</title>
   </head>
   <body>
-    <h1>Filme</h1>
+    <h1>Lista de Filmes</h1>
     <nav id="menuNav">
       <div id="menuButtom">
         <div></div>
@@ -24,11 +24,11 @@
         <div></div>
       </div>
       <ul id="menuLista">
-        <li id="item1" class="menuItem">Início</li>
+        <li id="item1" class="menuItem ativo">Início</li>
         <li id="item2" class="menuItem">Busca</li>
         <li id="item3" class="menuItem">Sobre</li>
       </ul>
     </nav>
-    <section id="filmeSelecionado"></section>
+    <section id="listaFilmes"></section>
   </body>
 </html>
