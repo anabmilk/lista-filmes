@@ -1,0 +1,81 @@
+#listaFilmes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /*quebra de linha*/
+    justify-content: left;
+  }
+  
+  article {
+    width: 250px;
+    border-radius: 10px;
+    margin: 0 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px 80px -25px rgba(0, 0, 0, 0.25);
+    padding-bottom: 0.1rem;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  figure img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .content {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  h2 {
+    font-size: 14pt;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  
+  .dados {
+    margin-top: 0;
+    padding-left: 0;
+  }
+  
+  .dados li {
+    list-style: none;
+    display: inline;
+  }
+  
+  .dados li:not(:last-child)::after {
+    content: ",";
+  }
+  
+  .sinopse {
+    text-align: justify;
+  }
+  
+  h3 {
+    margin-bottom: 0;
+  }
+  
+  h3 + * {
+    margin-top: 0.2em;
+  }
+  
+  .genero,
+  .diretor {
+    padding-left: 0;
+  }
+  
+  .genero li,
+  .diretor li {
+    list-style: none;
+    display: inline;
+  }
+  
+  .genero li:not(:last-child)::after,
+  .diretor li:not(:last-child)::after {
+    content: ", ";
+  }
+  
+  .elenco {
+    padding-left: 1rem;
+  }

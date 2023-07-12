@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+
+#caixaBusca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0;
+    height: 2rem;
+    margin: 0 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px 40px 1px rgba(0, 0, 0, 0.25);
+  }
+
+  #rotuloBusca {
+    margin-right: 5px;
+  }
+
+  #campoBusca {
+    flex: 1;
+    border: 0;
+  }
+
+  #campoBusca:focus {
+    outline: none;
+  }
+
+  #limpaBusca {
+    font-size: 10pt;
+    cursor: pointer;
+  }
